@@ -7,6 +7,7 @@ export default function Nextra({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <meta name="robots" content="noindex" />
         <link
           rel="alternate"
           type="application/rss+xml"
